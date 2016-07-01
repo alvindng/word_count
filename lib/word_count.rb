@@ -1,10 +1,15 @@
 require('pry')
 
 class String
-
   define_method(:word_count) do |string|
-    user_word = self
-    string_array = string.split(" ").sort()
-    counts = Hash.new(0)
-    string_array.each { |word| counts[user_word] +=1}
+    user_word = self.downcase()
+    string_array = string.downcase().split().sort()
+    count = 0
+    string_array.each() do |match|
+      if match == user_word
+        count += 1
+      end
+    end
+    return count
   end
+end
