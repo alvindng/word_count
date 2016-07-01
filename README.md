@@ -12,7 +12,7 @@ Website showcasing everything I learned in week 1 Ruby of Epicodus. This applica
 ## Setup/Installation Requirements
 
 * Download/clone repository, or visit
-
+https://degrassi-syrup-35998.herokuapp.com/
 * To see how many times your word appears in a sentence, enter a word into the 1st form and your sentence in the 2nd form
 * Click the _"Let's see the Count!"_ button to see the Count
 
